@@ -13,7 +13,7 @@
 
 2) Create Template in wati to send a otp msg like below
 
-```Greetings for the day..!!
+```Greetings for the day..!
 Your OTP is *{{otp}}*
 Thanks,
 Navven 	
