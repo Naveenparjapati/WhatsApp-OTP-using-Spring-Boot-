@@ -16,10 +16,10 @@
 ```Greetings for the day..!!
 Your OTP is *{{otp}}*
 Thanks,
-Ashok IT.	
+Navven 	
 ```
 
-*italic* Note: WATI will review our template and they will approve it. Once template got approved then only we can send a msg using that template.*italic*
+*Note: WATI will review our template and they will approve it. Once template got approved then only we can send a msg using that template.*
 
 3) Configure WATI API Token & WATI Endpoint in our application
 
@@ -40,12 +40,13 @@ Ashok IT.
 			- prepare api request object
 			- use wati api token as Authorization Header
 			- send post request with token + request object
+   
 
-7) After sending whatsapp msg, redirect customer to validate OTP page and ask customer to enter OTP
+6) After sending whatsapp msg, redirect customer to validate OTP page and ask customer to enter OTP
 
-8) Customer will enter OTP and will submit the form for validation
+7) Customer will enter OTP and will submit the form for validation
 
-9) Take form data and verify customer record presence our database table with customer given email and otp. 
+8) Take form data and verify customer record presence our database table with customer given email and otp. 
 
 	- With given details if record available in DB that means it is valid otp then update account status as 'verified' and display success msg
 
